@@ -1,0 +1,3 @@
+object HelloWord extends App {
+
+}
