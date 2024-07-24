@@ -1,4 +1,6 @@
 
+// Write a  Scala program to print " Hello, world" and version of the  Scala language
+
 // Define an object named Hello, which extends the App trait
 object HelloWord extends App {
   // Print "Hello, world" to the console
