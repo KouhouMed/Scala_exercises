@@ -4,10 +4,7 @@
 
 object Exo4 extends App {
   def checker30(a: Int, b: Int): Boolean = {
-    if (a == 30 || b == 30 || a+b == 30)
-      true
-    else
-      false
+    a == 30 || b == 30 || a + b == 30
   }
 
   // test
