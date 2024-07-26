@@ -8,7 +8,14 @@ object MultipleChecker extends App {
   }
 
   // test
-  val n: Int = 24
-  println(s"Is $n a multiple of 3 or 7? " + isMultipleOf3Or7(n))
+  println("Enter a positive number:")
+  val input = scala.io.StdIn.readLine().toInt
+
+  if (input > 0) {
+    val result = isMultipleOf3Or7(input)
+    println(s"$input is ${if (result) "" else "not "}a multiple of 3 or 7")
+  } else {
+    println("Please enter a positive number.")
+  }
 
 }
