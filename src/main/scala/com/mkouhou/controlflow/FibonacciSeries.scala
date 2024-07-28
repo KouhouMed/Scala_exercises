@@ -3,7 +3,7 @@ package com.mkouhou.controlflow
 /*
 * Write a Scala program to print the Fibonacci series up to a given number using a while loop.
 * */
-object FibonacciSeries {
+object FibonacciSeries extends App {
   def printFibonacciSeries(limit: Int): Unit = {
     if (limit < 0) {
       println("Please enter a non-negative number.")

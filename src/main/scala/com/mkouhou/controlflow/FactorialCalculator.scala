@@ -3,7 +3,7 @@ package com.mkouhou.controlflow
 /**
  * Write a Scala program to find the factorial of a given number using a while loop.
  */
-object FactorialCalculator {
+object FactorialCalculator extends App {
 
   def calculateFactorial(n: Int): Long = {
     if (n < 0) {

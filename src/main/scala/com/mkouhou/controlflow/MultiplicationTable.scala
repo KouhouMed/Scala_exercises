@@ -3,7 +3,7 @@ package com.mkouhou.controlflow
 /*
 *  Write a Scala program to print the multiplication table of a given number using a for loop.
 * */
-object MultiplicationTable {
+object MultiplicationTable extends App {
   def printTable(number: Int, rows: Int = 10): Unit = {
     println(s"Multiplication table for $number:")
 

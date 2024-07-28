@@ -1,6 +1,6 @@
 package com.mkouhou.controlflow
 
-object NumberChecker {
+object NumberChecker extends App {
   def checkNumber(num: Double): String = {
     if (num > 0) {
       "positive"
