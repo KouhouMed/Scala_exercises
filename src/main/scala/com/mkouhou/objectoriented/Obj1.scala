@@ -28,8 +28,8 @@ object Obj1 extends App {
   person.setAge(31)
   person.setCountry("Canada")
 
-  println("Updated Name: " + person.getName)
-  println("Updated Age: " + person.getAge)
-  println("Updated Country: " + person.getCountry)
+  println("New Name: " + person.getName)
+  println("New Age: " + person.getAge)
+  println("New Country: " + person.getCountry)
 
 }
