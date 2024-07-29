@@ -18,4 +18,18 @@ object Obj1 extends App {
     def setCountry(newCountry: String): Unit = country = newCountry
   }
 
+  val person = new Person("John", 30, "USA")
+
+  println("Name: " + person.getName)
+  println("Age: " + person.getAge)
+  println("Country: " + person.getCountry)
+
+  person.setName("Jane")
+  person.setAge(31)
+  person.setCountry("Canada")
+
+  println("Updated Name: " + person.getName)
+  println("Updated Age: " + person.getAge)
+  println("Updated Country: " + person.getCountry)
+
 }
