@@ -13,3 +13,11 @@ class Car(val make: String, val model: String, val year: Int) {
     println("------------------------")
   }
 }
+
+object Main extends App {
+  val car1 = new Car("Toyota", "Corolla", 2022)
+  val car2 = new Car("Tesla", "Model 3", 2023)
+
+  car1.displayInfo()
+  car2.displayInfo()
+}
