@@ -1,6 +1,9 @@
 package com.mkouhou.objectoriented
 
-
+/*
+* Write a Scala program that creates a class Employee with properties like name, age, and designation.
+* Implement a method to display employee details.
+* */
 class Employee(val name: String, val age: Int, val designation: String) {
   def displayDetails(): Unit = {
     println(s"Employee Details:")
