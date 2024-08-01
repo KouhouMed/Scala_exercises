@@ -1,5 +1,9 @@
 package com.mkouhou.objectoriented
 
+/*
+* Write a Scala program that creates a class BankAccount with properties accountNumber and balance. 
+* Implement methods to deposit and withdraw money from the account.
+* */
 class BankAccount(val accountNumber: String, private var _balance: Double = 0.0) {
   def balance: Double = _balance
 
