@@ -14,7 +14,7 @@ class Car(val make: String, val model: String, val year: Int) {
   }
 }
 
-object Main extends App {
+object Car extends App {
   val car1 = new Car("Toyota", "Corolla", 2022)
   val car2 = new Car("Tesla", "Model 3", 2023)
 
