@@ -17,4 +17,8 @@ object MathConstants extends App {
   println(s"Golden Ratio: ${MathConstants.GOLDEN_RATIO}")
   println(s"Square root of 2: ${MathConstants.SQRT_2}")
   println(s"Euler-Mascheroni constant: ${MathConstants.EULER_MASCHERONI}")
+
+  // Example usage in calculation
+  val circleArea = MathConstants.PI * 5 * 5
+  println(f"Area of a circle with radius 5: $circleArea%.4f")
 }
