@@ -10,4 +10,11 @@ object MathConstants extends App {
   val SQRT_2: Double = 1.414213562373095
   val EULER_MASCHERONI: Double = 0.577215664901532
 
+  // test
+
+  println(s"Pi: ${MathConstants.PI}")
+  println(s"e: ${MathConstants.E}")
+  println(s"Golden Ratio: ${MathConstants.GOLDEN_RATIO}")
+  println(s"Square root of 2: ${MathConstants.SQRT_2}")
+  println(s"Euler-Mascheroni constant: ${MathConstants.EULER_MASCHERONI}")
 }
