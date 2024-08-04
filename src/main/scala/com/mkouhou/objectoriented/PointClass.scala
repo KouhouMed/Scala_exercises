@@ -5,7 +5,7 @@ package com.mkouhou.objectoriented
 * Use a destructuring declaration to extract the coordinates.
 * */
 
-object PointClass extends App{
+object PointClass{
   def main(args: Array[String]): Unit = {
     val point = Point(2, 1)
 
@@ -15,3 +15,4 @@ object PointClass extends App{
     println(s"y-coordinate: $y")
   }
 }
+case class Point(x: Int, y: Int)
